@@ -1,8 +1,26 @@
+body{
+    
+    background-image: url(/08-HTML/homework/img/fonfo-comida.jpg);
+    background: cover;
+    background-size: 100%;    
+    text-align: center;
+    
+}
 h1{
+    
     color:red;
 }
 img{
-    width:400px;
+    margin: 30px auto;
+    width:400px;    
+    
+}
+li{
+    list-style: none;
+}
+
+.divClass{
+    margin: 20px;
 }
 #spanId{
     font-size: 18px;
@@ -10,10 +28,12 @@ img{
     
 }
 #thirdDiv{
+    margin: auto;
     height: 600px;
     width: 500px;
-    background-color:lightblue;
-    border: 5px solid darkblue;
+    background-color:lightgray;
+    border: 5px solid grey;
     padding: 50px;
-    
+    list-style: none;
+    border-radius: 30px;
 }
