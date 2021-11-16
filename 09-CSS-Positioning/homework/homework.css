@@ -54,7 +54,9 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 }
 
 #ejercicioSiete{
-    justify-content: ;
+    display: inline-flex;   
+    position:static; 
+    align-items: center;
 }
 
 
